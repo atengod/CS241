@@ -1,0 +1,19 @@
+/*********************
+//Name: Michael Olorode
+//Creation: 02/19/18
+//Version: Assignment 2
+*********************/
+
+
+a)
+P(x) -> x is laughs
+Q(x) -> x is knows why
+predicate wff: ∀x P(x) ∆x Q(x)
+
+b)
+P(x) -> x is a fraction 
+Q(y) -> y is an integer
+X = set of rational numbers 
+Y = set of fractions 
+Z = set of integers
+predicate wff: ∀x ∈ X P(x) ∈ Y Ǝy ∈ Y Q(y) ∈ Z -> Ǝx ∈ X (x ∈ Z) 
