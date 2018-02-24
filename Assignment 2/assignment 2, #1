@@ -1,3 +1,10 @@
+/*********************
+//Name: Michael Olorode
+//Creation: 02/19/18
+//Version: Assignment 2
+*********************/
+
+
 a)
 DOI = {2,4,6,8,10,12,14,16,18,20}
 P(x) -> x/2 is odd, x  ∈ DOI, x/2 is odd, therefore P is true
