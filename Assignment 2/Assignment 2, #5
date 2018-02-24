@@ -1,0 +1,65 @@
+/*********************
+//Name: Michael Olorode
+//Creation: 02/19/18
+//Version: Assignment 2
+*********************/
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+bool isOdd(int x)
+{
+  if (x % 2 != 0)
+  return true;
+  
+  else
+  return false;
+}
+
+bool isMult5(int x)
+{
+  if (x % 5 == 0)
+  return true;
+  
+  else
+  return false;
+}
+
+bool eWff(string doi, bool(*P)(int))
+{
+  bool retVal;
+  string line;
+  ifstream myfile(doi);
+  
+  if (myfile.is_open())
+  {
+    while (getline(myfile, line))
+    {
+      retVal = P(atoi(line.c_str()));
+      if (retVal == false)
+      break;
+    }
+    myfile.close();
+  }
+  else
+  cout << "Unable to open file";
+  
+  return retVal;
+}
+
+int main()
+{
+  string files[2] = { "data1.txt", "data2.txt" };
+  cout << boolalpha;
+  
+  for (int i = 0; i < 2; i += 1)
+  {
+    cout << "Predicate wff evaluates to" << eWff(files[i], isOdd) << " for DOI " << (i + 1) << " and predicate isOdd()\n\n";
+    
+    cout << "Predicate wff evaluates to" << eWff(files[i], isMult5) << " for DOI " << (i + 1) << " and predicate isMult5()\n\n";
+  }
+  return 0;
+}
