@@ -29,3 +29,15 @@ int isprime(int a)
   else
   return 1;
 }
+
+
+
+
+
+
+
+
+AFTER-PARTY
+(a) if n = p is prime, what is σ(n) and τ(n)? 
+(b) if n = pq where p and q are both prime, what is σ(n) and τ(n)? 
+(c) if n = pm where p is prime and m > 1, what is σ(n) and τ(n)?
