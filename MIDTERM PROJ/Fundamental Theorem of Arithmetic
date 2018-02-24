@@ -3,3 +3,29 @@
 //Creation: IP
 //Version: Midterm Project
 *********************/
+
+IN-PROGRESS
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int isprime(int a) 
+{
+  if(a==1||a==0)
+  return -1;
+  
+  int i, c=0;
+  
+  for(i = 2; i <= sqrt(a); i++)
+  {
+    if(a%i == 0)
+    c++;
+  }
+  if(c>0)
+  return -1;
+  
+  else
+  return 1;
+}
