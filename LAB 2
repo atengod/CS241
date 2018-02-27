@@ -13,8 +13,9 @@ Q(x) = x is quitter
 S(x) = x is succeed
 C(x) = x is content
 
-predicate wff: ∀x ∈ X P(x) ∈ Y Ǝy ∈ Y Q(y) ∈ Z -> Ǝx ∈ X (x ∈ Z) 
+Predicate WFF: ∀x [D(x) -> S(x)] ^ ∀x[D(x) -> S(x)]' -> Ǝx[Q(x) ^ C(x)] -> ∀x[Q(x) -> D(x)]'
 
+∈ X P(x) ∈ Y Ǝy ∈ Y Q(y) ∈ Z -> Ǝx ∈ X (x ∈ Z) 
 PROOF:
 
 2. Rational numbers are real numbers. All integers are rational numbers. Hence, some real numbers
@@ -22,9 +23,9 @@ are integers.
 
 Let R(x) = x is rational numbers
 N(x) = x is real numbers
-I(x) = x is iintegers
+I(x) = x is integers
 
-predicate wff: 
+Predicate WFF: ∀x [R(x) -> N(x)] ^ ∀x [I(x) -> R(x)] -> Ǝx[N(x) ^ I(x)]
 
 PROOF:
 by universal specification
@@ -34,7 +35,7 @@ by existential generalization
 3. There is a writer who is not nearsighted. Everyone who wears glasses is nearsighted. Furthermore,
 everyone either wears glasses or wears contact lenses. Therefore, some writer wears contact lenses.
 
-predicate wff:
+Predicate WFF:
 
 PROOF:
 by universal specification
@@ -47,8 +48,12 @@ by existential generalization
 
 4. Software engineers are both mathematicians and designers. Mathematicians are analytical. Designers
 are analytical as well. Hence, Software engineers are analytical.
-
-predicate wff:
+ Let S(x) = x is software engineers
+ M(x) = x is mathematicians
+ D(x) = x is designers
+ A(x) = x is analytical 
+ 
+Predicate WFF: ∀x[S(x) -> M(x) ^ D(x)] ^ ∀x [M(x) -> A(x)] [D(x)->A(x)] -> [S(x) -> A(x)]
 
 PROOF:
 by universal generalization
