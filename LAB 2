@@ -5,8 +5,47 @@
 *********************/
 
 
-1
-2
-3
-4
-5
+1. Diligent people succeed. No quitter succeeds. Some quitters, however, are content. Therefore, no
+quitter is diligent.
+
+Let D(x) = x is diligent people 
+Q(x) = x is quitter
+S(x) = x is succeed
+C(x) = x is content
+
+predicate wff: ∀x ∈ X P(x) ∈ Y Ǝy ∈ Y Q(y) ∈ Z -> Ǝx ∈ X (x ∈ Z) 
+
+PROOF:
+
+2. Rational numbers are real numbers. All integers are rational numbers. Hence, some real numbers
+are integers.
+
+Let R(x) = x is rational numbers
+N(x) = x is real numbers
+I(x) = x is iintegers
+
+predicate wff: 
+
+PROOF:
+
+3. There is a writer who is not nearsighted. Everyone who wears glasses is nearsighted. Furthermore,
+everyone either wears glasses or wears contact lenses. Therefore, some writer wears contact lenses.
+
+predicate wff:
+
+PROOF:
+
+4. Software engineers are both mathematicians and designers. Mathematicians are analytical. Designers
+are analytical as well. Hence, Software engineers are analytical.
+
+predicate wff:
+
+PROOF:
+
+5. To qualify as a citizen of a state for purposes of diversity jurisdiction, a party must currently reside
+in that state and intend to remain there indefinitely. Here, the plaintiff does not currently reside
+in the state. Therefore, the plaintiff cannot be a citizen of the state for jurisdictional purposes.
+
+predicate wff:
+
+PROOF:
