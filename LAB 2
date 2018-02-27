@@ -35,6 +35,11 @@ by existential generalization
 3. There is a writer who is not nearsighted. Everyone who wears glasses is nearsighted. Furthermore,
 everyone either wears glasses or wears contact lenses. Therefore, some writer wears contact lenses.
 
+Let W(x) = x is writer
+N(x) = x is nearsighted
+G(x) = x is wears glasses
+C(x) = x is wears contact lenses
+
 Predicate WFF:
 
 PROOF:
