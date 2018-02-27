@@ -27,6 +27,9 @@ I(x) = x is iintegers
 predicate wff: 
 
 PROOF:
+by universal specification
+by hypothetical syllogism
+by existential generalization
 
 3. There is a writer who is not nearsighted. Everyone who wears glasses is nearsighted. Furthermore,
 everyone either wears glasses or wears contact lenses. Therefore, some writer wears contact lenses.
@@ -34,6 +37,13 @@ everyone either wears glasses or wears contact lenses. Therefore, some writer we
 predicate wff:
 
 PROOF:
+by universal specification
+by simplification
+by contrapositive rule
+by modus ponen
+by disjunctive syllogism
+by conjunction
+by existential generalization
 
 4. Software engineers are both mathematicians and designers. Mathematicians are analytical. Designers
 are analytical as well. Hence, Software engineers are analytical.
@@ -41,11 +51,20 @@ are analytical as well. Hence, Software engineers are analytical.
 predicate wff:
 
 PROOF:
+by universal generalization
+by hypothetical syllogism 
+by universal generalization
 
 5. To qualify as a citizen of a state for purposes of diversity jurisdiction, a party must currently reside
 in that state and intend to remain there indefinitely. Here, the plaintiff does not currently reside
 in the state. Therefore, the plaintiff cannot be a citizen of the state for jurisdictional purposes.
 
-predicate wff:
+Let Q(x) = x is qualify to be citizen of state
+R(x) = x is currently reside in state
+
+predicate wff: ∀x(Q(x) -> R(x))
 
 PROOF:
+by universal specification
+by contrpositive rule
+by modus ponen
