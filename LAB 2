@@ -17,6 +17,7 @@ Predicate WFF: ∀x [D(x) -> S(x)] ^ ∀x[D(x) -> S(x)]' -> Ǝx[Q(x) ^ C(x)] -> 
 
 ∈ X P(x) ∈ Y Ǝy ∈ Y Q(y) ∈ Z -> Ǝx ∈ X (x ∈ Z) 
 PROOF:
+∀x[Q(x) -> D(x)]' by univversal generalisation
 
 2. Rational numbers are real numbers. All integers are rational numbers. Hence, some real numbers
 are integers.
@@ -28,9 +29,9 @@ I(x) = x is integers
 Predicate WFF: ∀x [R(x) -> N(x)] ^ ∀x [I(x) -> R(x)] -> Ǝx[N(x) ^ I(x)]
 
 PROOF:
-by universal specification
-by hypothetical syllogism
-by existential generalization
+[R(c) -> N(c)] ^ [I(c) -> R(c)] -> [N(c) ^ I(c)] by universal specification
+I(c) -> R(c) by hypothetical syllogism
+Ǝx[N(x) ^ I(x)] by existential generalization
 
 3. There is a writer who is not nearsighted. Everyone who wears glasses is nearsighted. Furthermore,
 everyone either wears glasses or wears contact lenses. Therefore, some writer wears contact lenses.
@@ -58,12 +59,13 @@ are analytical as well. Hence, Software engineers are analytical.
  D(x) = x is designers
  A(x) = x is analytical 
  
-Predicate WFF: ∀x[S(x) -> M(x) ^ D(x)] ^ ∀x [M(x) -> A(x)] [D(x)->A(x)] -> [S(x) -> A(x)]
+Predicate WFF: ∀x[S(x) -> (M(x) ^ D(x))] ^ ∀x [M(x) -> A(x)]
+∀x [D(x)->A(x)] -> ∀x [S(x) -> A(x)]
 
 PROOF:
-by universal generalization
-by hypothetical syllogism 
-by universal generalization
+[S(c) -> (M(c) ^ D(c))] ^ [M(x) -> A(x)] [D(c)->A(c)] -> [S(c) -> A(c)] by universal generalization
+[S(c) -> A(c)] by hypothetical syllogism 
+∀x [S(x) -> A(x)] by universal generalization
 
 5. To qualify as a citizen of a state for purposes of diversity jurisdiction, a party must currently reside
 in that state and intend to remain there indefinitely. Here, the plaintiff does not currently reside
