@@ -1,0 +1,44 @@
+4. 
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+bool IsSet(string filename);
+int main() 
+{
+    string data[2] = {"data1.txt","data2.txt"};
+	for(int I = 0;  I < 2;  i++)
+	   {
+             cout << data[i] << (IsSet(data[i])?(" does") : (" does not")) <<" represent a set\n";
+       }
+       return 0;
+}
+bool IsSet(string filename)
+{
+       int numbers[500];
+       int count=0,inputNum;
+       ifstream fin(filename.c_str());
+       if(fin.is_open())
+       {     
+             while(!fin.eof())
+             {
+                    fin >> inputNum;
+                    for(int i=0; i<count; i++)
+                    {
+                           if(numbers[i] == inputNum)
+                                 return false;
+                    }
+                    numbers[count] = inputNum;
+                    count++;
+                    if(fin.eof())
+                           break;
+             }
+       }
+	   else
+       {
+             cout << "\n Unable to open file" << filename;
+             return false;
+       }
+       fin.close();
+       return true;
+}
