@@ -1,6 +1,6 @@
 /*********************
 //Name: Michael Olorode
-//Creation: IP
+//Creation: 03/20/2018
 //Version: Midterm Project
 *********************/
 
@@ -30,6 +30,52 @@ int isprime(int a)
   return 1;
 }
 
+int firstfact(int x)
+{
+  if(x==2||x==3)
+  return x;
+  
+  int i;
+  
+  for(i = 2; i <= sqrt(x);i++)
+  {
+    if(x%i == 0)
+    return i;
+  }
+}
+
+int main()
+{
+  while(1)
+  {
+    int n, k, j, p[10], q[10] = {0}, temp;
+    cout << "Enter a number greater than 1 to prime factorize, to stop enter 0 ";
+    
+    cin >> n;
+    
+    if(n == 0)
+    break;
+    
+    temp=n;
+    
+    int index=0;
+    
+    while(n >= 2)
+    {
+      if(isprime(n)==1)
+      k=n;
+      
+      else
+      k=firstfact(n);
+      
+      for(j = 0; j < index; j++)
+      {
+        if(k == p[j])
+        {
+          q[j]++;
+          goto a; 
+        }
+      }
 
 
 
