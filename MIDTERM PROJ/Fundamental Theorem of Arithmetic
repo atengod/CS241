@@ -58,11 +58,11 @@ int main()
     
     temp = n;
     
-    int index=0;
+    int index = 0;
     
     while(n >= 2)
     {
-      if(isprime(n)==1)
+      if(isprime(n) == 1)
       k = n;
       
       else
