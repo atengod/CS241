@@ -107,7 +107,7 @@ AFTER-PARTY
 τ(n) = 
 
 
-(c) if n = pm where p is prime and m > 1, what is σ(n) and τ(n)?
+(c) if n = p^m where p is prime and m > 1, what is σ(n) and τ(n)?
 σ(n) = 
 τ(n) =
 
