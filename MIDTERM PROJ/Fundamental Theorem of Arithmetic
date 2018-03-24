@@ -98,16 +98,16 @@ int main()
 
 AFTER-PARTY
 (a) if n = p is prime, what is σ(n) and τ(n)? 
-σ(n) = 1 and p
-τ(n) = count of n will be 2
+σ(n) = sum = 1 and p
+τ(n) = 2
 
 
 (b) if n = pq where p and q are both prime, what is σ(n) and τ(n)?
-σ(n) = 
-τ(n) = 
+σ(n) = sum = p + q + 1
+τ(n) = 3
 
 
 (c) if n = p^m where p is prime and m > 1, what is σ(n) and τ(n)?
-σ(n) = 
-τ(n) =
+σ(n) = sum = p
+τ(n) = 2
 
