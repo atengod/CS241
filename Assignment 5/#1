@@ -1,4 +1,31 @@
 a)
+outfit combinations = 3 * 5 * 4 + 1 + 1
+=62
+
+ 
 b)
+total certificates = 12 * 5 * 10
+= 600
+
+
 c)
+= 4 + 30 + 3
+= 37
+
+n(B) = (6*5) + (6*1) + (5*4)
+= 30 + 6 + 20
+= 56
+
+possible combinations = [n(A) + n (B)] - [n(A∩B)]
+= 37 + 56 - 13
+= 80
+//2 out of 6 mean = 6 * 6-1 -> these two are selected
+
+
 d)
+binary string of length 8
+Palindromes are reversible string. So 8 length = 8/2 = 4 bit used and will be used to reverse 
+n = 4
+no. of binary strings = 2^n
+= 2^4
+= 16
