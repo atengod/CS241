@@ -1,4 +1,32 @@
 a)
+k pair of shoes = 2k shoes in a bag
+2 complete pair removed (n) = 4 shoes
+k1n + 1 = 2k
+k1n = 2k - 1
+k1 = (2k - 1) / n
+k1 = (2k - 1) / 4
+no. of shoes = k1 + 1
+= [(2k - 1) / 4] + 1
+= (2k - 1 + 4) / 4
+= (2k + 3) / 4
+
+
 b)
+
+
 c)
+
+
 d)
+total people = 25
+kn + 1 = 25
+kn = 25 -1
+kn = 24
+born in same month n = 12
+k * 12 = 24
+k = 24 / 12
+k = 2
+people born in same month = k + 1
+= 2 + 1
+= 3
+
