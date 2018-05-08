@@ -1,0 +1,23 @@
+a.
+f : A -> B = { (1,4) ,(2,2) ,(4,6) ,(3,8) ,(6,10) }
+
+Every element of set A is not mapped. Element 5 does not have an image, therefore it is not a function according to above given definition.
+
+b.
+f: B->A = { (2,1) ,(4,2),(6,3) ,(8,4) ,(10,5) }
+
+It is a function as all element of B are mapped to unique element in Y.
+It is one-to-one 
+
+c.
+f : C -> B = { (1,10) ,(3,8) ,(5,2),(9,4),(7,6) }
+
+It is a function as each element to C maps to some element of set B.
+It is also injective and surjective therefore is bijective.
+
+d.
+f : A->C = {(1,1), (2,9) ,(3,3),(4,7),(6,9),(5,5) }
+
+It is function as each element of A maps to single element of set C.
+It is many-to-one as element 2 and 6 maps to same element 9 of set C.
+It is surjective as all elements of set C are covered.
