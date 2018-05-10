@@ -1,3 +1,20 @@
+total no. of people = 100
+total no. of females = 60
+
 a)
+prob of selecting female = (total no. of females / total no. of people)
+= 60 / 100 
+= 0.6
+
 b)
+total no. of A = 17
+total no. of O = 36
+prob of selectig a person either A or O = (total no. of A + total no. of O / total no. of people)
+= 17 + 36 / 100
+= 0.53
+
 c)
+total no. of AB = 7 + 23 =30
+total male of AB = 7
+= 7 / 30
+= 0.23
