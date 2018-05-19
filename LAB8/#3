@@ -1,1 +1,5 @@
-.
+In the function we see A is encyphered to Q, B, R and so on. It is a shift cipher
+Here we see that the cipher shifts the characcter by 16 right positions 
+
+Thus the equivalent function is
+g(p) = (P + 16) % 26
