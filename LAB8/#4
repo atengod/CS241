@@ -1,1 +1,20 @@
-.
+g(p) = (Ap + B) % 26
+A is shifted to U
+B is shifted to D
+C is shifted to M
+
+g(0) = 20
+g(1) = 3
+g(2) = 12
+
+g(p) = (A .0 + B) % 26 = 20
+g(p) = (A .1 + B) % 26 = 3
+g(p) = (A .2 + B) % 26 = 12
+
+B = 20(mod 26)
+
+A + 20 = 3(mod 26) 
+A = 9(mod 26) 
+
+g(p) = (9p + 20) % 26
+
