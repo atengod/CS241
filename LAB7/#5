@@ -1,3 +1,21 @@
-a)
-b)
-c)
+Probability of head = 3/5
+Probability of tail = 2/5
+Total tosses n = 5
+Using Binomial expansion we know that : nCx px qn-x
+
+a) All head Means x = 5
+nCx px qn-x 
+5C5 (3/5)5 (2/5)5-5
+= 243 / 3125
+
+b) AT LEAST 3 HEAD  
+P(3 heads) + P(4 heads) + P(5 heads)
+nCx px qn-x =>  5C3 (3/5)3 (2/5)5-3 + 5C4 (3/5)4 (2/5)5-4 + 5C5 (3/5)5 (2/5)5-5  
+= 10 * 27 * 4 / 55 + 5 * 81 * 2 / 55 + 243 / 55
+= 1080 + 810 + 243 / 3125
+= 2133 / 3125
+
+c) At most 1 head
+= 5C1 (3/5)1 (2/5)5-1
+= 240 / 3125
+
